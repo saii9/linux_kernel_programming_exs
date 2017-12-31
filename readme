@@ -1,0 +1,12 @@
+cd /dev/
+
+#0. mknod 
+#1. <name of device file>
+#2. c for char and b for block
+#3. major number
+#4. minor number
+mknod /dev/myDeviceFile c 900 1
+
+
+user_space -> device_file -> device_driver -> physical_device
+                             ---------KERNAL_SPACE-----------
