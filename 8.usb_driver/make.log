@@ -1,0 +1,8 @@
+make -C /lib/modules/4.10.0-42-generic/build M=/home/sai/ddrive/BSE/linux_kernel_programming_exs/8.usb_driver modules
+make[1]: Entering directory '/usr/src/linux-headers-4.10.0-42-generic'
+  CC [M]  /home/sai/ddrive/BSE/linux_kernel_programming_exs/8.usb_driver/stick_driver.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/sai/ddrive/BSE/linux_kernel_programming_exs/8.usb_driver/stick_driver.mod.o
+  LD [M]  /home/sai/ddrive/BSE/linux_kernel_programming_exs/8.usb_driver/stick_driver.ko
+make[1]: Leaving directory '/usr/src/linux-headers-4.10.0-42-generic'
